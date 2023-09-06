@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import ma.cigma.springsecurity.domaine.EmpVo;
+import ma.cigma.springsecurity.dto.EmpVo;
 import ma.cigma.springsecurity.service.IEmpService;
 
 @RestController

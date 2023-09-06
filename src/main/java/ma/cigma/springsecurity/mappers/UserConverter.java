@@ -1,9 +1,10 @@
-package ma.cigma.springsecurity.domaine;
+package ma.cigma.springsecurity.mappers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ma.cigma.springsecurity.service.model.User;
+import ma.cigma.springsecurity.dto.UserVo;
+import ma.cigma.springsecurity.entities.User;
 
 public class UserConverter {
 	public static UserVo toVo(User bo) {

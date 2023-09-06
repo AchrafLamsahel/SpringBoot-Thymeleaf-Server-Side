@@ -1,7 +1,7 @@
 package ma.cigma.springsecurity.service;
 import java.util.List;
 
-import ma.cigma.springsecurity.domaine.EmpVo;
+import ma.cigma.springsecurity.dto.EmpVo;
 public interface IEmpService {
 	List<EmpVo> getEmployees();
 	void save(EmpVo emp);

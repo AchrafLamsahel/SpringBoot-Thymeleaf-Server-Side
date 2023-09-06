@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.springframework.security.core.userdetails.UserDetailsService;
 
-import ma.cigma.springsecurity.domaine.RoleVo;
-import ma.cigma.springsecurity.domaine.UserVo;
+import ma.cigma.springsecurity.dto.RoleVo;
+import ma.cigma.springsecurity.dto.UserVo;
 
 public interface IUserService extends UserDetailsService{
 	void save(UserVo user);

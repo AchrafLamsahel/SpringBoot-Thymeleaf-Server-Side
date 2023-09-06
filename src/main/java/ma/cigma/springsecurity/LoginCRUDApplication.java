@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import ma.cigma.springsecurity.domaine.EmpVo;
-import ma.cigma.springsecurity.domaine.RoleVo;
-import ma.cigma.springsecurity.domaine.UserVo;
+import ma.cigma.springsecurity.dto.EmpVo;
+import ma.cigma.springsecurity.dto.RoleVo;
+import ma.cigma.springsecurity.dto.UserVo;
 import ma.cigma.springsecurity.service.IEmpService;
 import ma.cigma.springsecurity.service.IUserService;
 

@@ -1,4 +1,4 @@
-package ma.cigma.springsecurity.service.model;
+package ma.cigma.springsecurity.entities;
 
 import java.util.ArrayList;
 import java.util.List;

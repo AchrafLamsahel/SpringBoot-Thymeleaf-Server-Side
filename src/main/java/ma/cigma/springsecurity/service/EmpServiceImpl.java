@@ -11,9 +11,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import ma.cigma.springsecurity.dao.EmpRepository;
-import ma.cigma.springsecurity.domaine.EmpConverter;
-import ma.cigma.springsecurity.domaine.EmpVo;
-import ma.cigma.springsecurity.service.model.Emp;
+import ma.cigma.springsecurity.mappers.EmpConverter;
+import ma.cigma.springsecurity.dto.EmpVo;
+import ma.cigma.springsecurity.entities.Emp;
 
 @Service
 @Transactional

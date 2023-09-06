@@ -16,12 +16,12 @@ import org.springframework.transaction.annotation.Transactional;
 import ma.cigma.springsecurity.dao.EmpRepository;
 import ma.cigma.springsecurity.dao.RoleRepository;
 import ma.cigma.springsecurity.dao.UserRepository;
-import ma.cigma.springsecurity.domaine.RoleConverter;
-import ma.cigma.springsecurity.domaine.RoleVo;
-import ma.cigma.springsecurity.domaine.UserConverter;
-import ma.cigma.springsecurity.domaine.UserVo;
-import ma.cigma.springsecurity.service.model.Role;
-import ma.cigma.springsecurity.service.model.User;
+import ma.cigma.springsecurity.mappers.RoleConverter;
+import ma.cigma.springsecurity.dto.RoleVo;
+import ma.cigma.springsecurity.mappers.UserConverter;
+import ma.cigma.springsecurity.dto.UserVo;
+import ma.cigma.springsecurity.entities.Role;
+import ma.cigma.springsecurity.entities.User;
 
 @Service("userService")
 @Transactional

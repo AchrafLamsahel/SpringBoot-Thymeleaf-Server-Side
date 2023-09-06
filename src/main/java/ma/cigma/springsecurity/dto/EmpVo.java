@@ -1,4 +1,4 @@
-package ma.cigma.springsecurity.domaine;
+package ma.cigma.springsecurity.dto;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package ma.cigma.springsecurity.service.model;
+package ma.cigma.springsecurity.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

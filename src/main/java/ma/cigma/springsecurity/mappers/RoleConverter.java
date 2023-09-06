@@ -1,9 +1,10 @@
-package ma.cigma.springsecurity.domaine;
+package ma.cigma.springsecurity.mappers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ma.cigma.springsecurity.service.model.Role;
+import ma.cigma.springsecurity.dto.RoleVo;
+import ma.cigma.springsecurity.entities.Role;
 
 public class RoleConverter {
 

@@ -1,4 +1,4 @@
-package ma.cigma.springsecurity.domaine;
+package ma.cigma.springsecurity.dto;
 
 import java.util.ArrayList;
 import java.util.List;

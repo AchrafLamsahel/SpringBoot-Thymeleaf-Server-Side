@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import ma.cigma.springsecurity.domaine.EmpVo;
+import ma.cigma.springsecurity.dto.EmpVo;
 import ma.cigma.springsecurity.service.IEmpService;
 
 @Controller

@@ -1,9 +1,10 @@
-package ma.cigma.springsecurity.domaine;
+package ma.cigma.springsecurity.mappers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ma.cigma.springsecurity.service.model.Emp;
+import ma.cigma.springsecurity.dto.EmpVo;
+import ma.cigma.springsecurity.entities.Emp;
 
 public class EmpConverter {
 	public static EmpVo toVo(Emp bo) {
