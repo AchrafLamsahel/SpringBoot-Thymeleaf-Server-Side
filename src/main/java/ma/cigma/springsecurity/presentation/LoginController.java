@@ -14,20 +14,8 @@ public class LoginController {
 
 	@RequestMapping(value = { "/", "/login" }, method = RequestMethod.GET)
 	public String login(Model m) {
-//		ModelAndView modelAndView = new ModelAndView();
-//		modelAndView.setViewName("login");
-//		return modelAndView;
 		return "login";
 	}
-	
-//	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
-//	public ModelAndView welcome() {
-//		ModelAndView modelAndView = new ModelAndView();
-//		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-//		modelAndView.addObject("userLogIn", auth.getName());
-//		modelAndView.setViewName("welcome");
-//		return modelAndView;
-//	}
 	
 	@GetMapping(value = "/welcome")
 	public String welcome(Model m) {
